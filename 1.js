@@ -22,10 +22,20 @@ function roll(){
         image.innerHTML = images.join('');
         rarity.textContent = ("Common");
     }
+    else if (value == 9){
+        result.textContent = ("Nah I'd Win");
+        image.innerHTML = images.join('');
+        rarity.textContent = ("Uncommon");
+    }
     else if (value == 12){
         result.textContent = ("Rizz");
         image.innerHTML = images.join('');
         rarity.textContent = ("Common");
+    }
+    else if (value == 15){
+        result.textContent = ("Sigma");
+        image.innerHTML = images.join('');
+        rarity.textContent = ("Rare");
     }
     else if (value == 23){
         result.textContent = ("Josh");
@@ -41,6 +51,11 @@ function roll(){
         result.textContent = ("Chad");
         image.innerHTML = images.join('');
         rarity.textContent = ("Epic");
+    }
+    else if(value == 34){
+        result.textContent = ("Alpha");
+        image.innerHTML = images.join('');
+        rarity.textContent = ("Common");
     }
     else if(value == 38){
         result.textContent = ("Mewing");
